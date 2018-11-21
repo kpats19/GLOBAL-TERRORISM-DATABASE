@@ -4,4 +4,5 @@ This is a publically available dataset,build a model that can predict the group 
 
 Download Dataset: https://www.start.umd.edu/gtd/contact/
 
-Note: For better visualization effect please import Wokebook in Tableau( I Created Table Hive table from Pyspark withpartition as Year since most of my EDA was around iyear.)
+Note: For better visualization effect please import Wokebook in Tableau.(I have filter the data using spark then afterwards I Created Table Hive table from Pyspark for EDA. Used ODBC to connect Hive table so you might need pro version of Tableau.) 
+(Partition: Year since most of my EDA was around iyear.)
